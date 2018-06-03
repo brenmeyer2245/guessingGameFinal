@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    background-image:url('/Users/brenmeyer/Desktop/Programming/Web_Projects/Guessing_Game/pics/hulkster copy.png');
+}
+
+.center{
+    text-align: center;
+}
+
+#guess-list{
+    list-style-type: none;
+    padding:2% 2%;
+    margin-top: 3%;
+}
+.guesses{
+    display:inline-block;
+    padding: 2% 3%;
+    margin-right: 5px;
+    font-size:30px;
+    border:2px solid black;
+    border-radius: 17%; 
+    background-color: white;
+}
+
+/*buttons*/
+#playerInput{
+    outline:none;
+    padding: 10% 2%;
+    border-radius: 100%;
+    position:relative;
+    left:14px;
+}
+#submitBtn{
+   padding: 1.5% 1%; 
+    border-radius:100%;
+    background-color:#0D8E41;
+    color:white;
+    position: relative;
+    top: 42px;
+    right: 20px;    
+}
+
+#hint{
+    margin-top: 2%;
+    padding: 2% 1.5%;
+    border-radius:20%;
+    background-color:#F2E313;  
+}
+#reset{
+    margin-top: 2%;
+    padding: 2% 1%;
+    border-radius:20%;
+    background-color:#DF470F;
+}
+
+img{
+    display:inline-block;
+    width: 90%;
+    
+}
+#footer{
+    background-color:white;
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
+/* Under 500px*/
+@media (max-width: 575px) {
+
+    #app {
+        width:100%;
+        height:100%;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom:0px;
+    }
+
+    body{
+        padding-top:0;
+    }
+
+    h2 {
+        font-size: 2.5vw;
+        padding: 0 0 0 0;
+    }
+    img {
+        width: 30%;
+    }
+    .headers{
+       font-size: 5vw;
+    }
+    
+}
+
+/*Over 950*/
+@media (min-width: 900px) {
+  #app{
+        height:600px;
+        width:900px;
+    }
+
+  #fullstack {
+    width: 234px;
+    height: 72px;
+  }
+  #grace {
+    width: 234px;
+    height: 49px;
+    margin-top: 2%;
+  }
+      
+  h4 {
+    font-size: 23px;
+  }
+}
+
