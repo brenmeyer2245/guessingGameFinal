@@ -1,5 +1,5 @@
 //Guess Game JS
-
+console.log("Ready");
 var guessLimit = 3;
 
 function Game() {
